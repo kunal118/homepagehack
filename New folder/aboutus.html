@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style2.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="my script.js"></script>
+
+    
+
+    <style>
+
+.heading41:hover{
+        transform:scale(1.1); 
+        
+    }
+    .ima41:hover {
+          transform: scale(1.2);
+          border: solid 5px rgb(240, 240, 240);
+        }
+
+        .ima42:hover {
+          transform: scale(1.2);
+          border: solid 5px rgb(240, 240, 240);
+        }
+
+    .accordion{
+    width:100%;
+    margin:0 10px;
+}
+
+/* accordion heading */
+.accordion h1{
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:0px;
+    margin-top:0px;
+    background-color:white;
+    padding-top:7px;padding-bottom:7px;
+    border:1px solid rgb(240, 240, 240);
+    border-radius:3px;
+}
+.accordion h1:hover{
+    cursor:pointer;
+}
+
+
+.accordion div{
+    display:none;
+    padding:10px;
+    height:100px;
+    line-height:20px;
+    border:1px solid rgb(240, 240, 240);
+    border-radius:1px;
+}
+
+    </style>
+    <script>$(document).ready(function(){
+        $(".accordion h1").click(function(){
+            var id = this.id;   
+
+            $(".accordion-content").each(function(){
+        
+                if($("#"+id).next()[0].id != this.id){
+                    $(this).slideUp("slow");
+                }
+        
+            });
+        
+            $(this).next().toggle("slow"); 
+        });
+        });</script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="top1"> <i class="fa fa-clock-o" style="font-size:14px;color:white ; "></i>  <span class="sp1"> Mon - Sat8.00 - 18.00. Sunday CLOSED</span></div>
+            <div class="top2"><i class="fa fa-phone" style="font-size:14px;color:white"></i> <span class="sp2"> Tel No.(+001)123-456-789</span></div>
+        </div>
+
+        <div class="hom">
+            <div class="im"><img src="../img/homelogo.png" style="margin-top: 18px;"></div>
+            <div class="navi">
+                <ul>
+                    <li class="navi21"><a href="http://127.0.0.1:5500/ExternalCss/template_task.html">HOME </a></li>
+                    <li class="navi22"> <a href="http://127.0.0.1:5500/ExternalCss/aboutus.html" > ABOUT US </a> </li>
+                    <li class="navi23"> <a href="http://127.0.0.1:5500/ExternalCss/services.html">SERVICES </a></li>
+                    <li class="navi24"><a href="http://127.0.0.1:5500/ExternalCss/projects.html">PROJECTS </a></li>
+                    <li class="navi25"><a href="http://127.0.0.1:5500/ExternalCss/pricing.html">PRICING </a></li>
+                    <li class="navi26"><a href="http://127.0.0.1:5500/ExternalCss/contactus.html"> CONTACT </a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cu1" > 
+            <h2 class="pa"> ABOUT US </h2>
+        </div>
+
+        <div class="container41">
+            <div class="about41">
+                <div class="ima41"> <img src="../img/chalet.jpg" height="100%" width="100%"></div>
+                <div class="write41">
+                   <div class="t1"> <p style="font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: bolder; line-height: 3;" > <span style="color: #46BD55; font-family: Arial, Helvetica, sans-serif;">AWESOME</span> SERVICES</p> </div>
+                   <div class="t2">
+                      <p style="font-family: Arial, Helvetica, sans-serif; font-size: 13px;">Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+                      <p style="font-family: Arial, Helvetica, sans-serif; font-size: 13px;">Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas</p>
+                    </div>
+                </div>
+                 
+                <div class="cell">
+                    <div class="chose">
+                        <div class="heading41"><span style="font-size: 24px; line-height: 5; ;"> Why To Chose Us? </span></div>
+                        <span style="font-size: 13px;"> Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</span>
+                        <br>
+                        <br>
+                        <span style="font-size: 13px;"> Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus</span>
+                    </div>
+                    <div class="solution">
+                        <div class="heading41"><span style="font-size: 24px; line-height: 5; ;"> Our Solution </span></div>
+                        <div class="accordion" style="font-size: 14px;">
+
+                            <h1 id="accordionhead_1">Housing</h1>
+                            <div id="accordioncontent_1" class="accordion-content" >
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sequi quidem impedit commodi reiciendis voluptas consequuntur beatae recusandae dolorum incidunt.
+                            </div>
+                        
+                           
+                            <h1 id="accordionhead_2">Commercials</h1>
+                            <div id="accordioncontent_2" class="accordion-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sequi quidem impedit commodi reiciendis voluptas consequuntur beatae recusandae dolorum incidunt.
+                            </div>
+                        
+                           
+                            <h1 id="accordionhead_3">Apartments</h1>
+                            <div id="accordioncontent_3" class="accordion-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sequi quidem impedit commodi reiciendis voluptas consequuntur beatae recusandae dolorum incidunt.
+                            </div>
+                        
+                            
+                            <h1 id="accordionhead_4">Villas</h1>
+                            <div id="accordioncontent_4" class="accordion-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sequi quidem impedit commodi reiciendis voluptas consequuntur beatae recusandae dolorum incidunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expertise">
+                        <div class="heading41"><span style="font-size: 24px; line-height: 5; ;"> Our Expertise</span></div>
+                        <h5 style="font-size:14px ; font-family: Arial, Helvetica, sans-serif;">Web Development</h5>
+                        <div class="w3-light-grey">
+                           <div class="w3-green" style="height:10px;width:85%"></div>
+                        </div>
+                        <h5 style="font-size:14px ; font-family: Arial, Helvetica, sans-serif;"> Designing</h5>
+                        <div class="w3-light-grey">
+                           <div class="w3-red" style="height:10px;width:60%"></div>
+                        </div>
+                        <h5 style="font-size:14px ; font-family: Arial, Helvetica, sans-serif;"> User Experience</h5>
+                        <div class="w3-light-grey">
+                           <div class="w3-blue" style="height:10px;width:75%"></div> 
+                        </div>
+                        <h5 style="font-size:14px ; font-family: Arial, Helvetica, sans-serif;"> Android Development</h5>
+                        <div class="w3-light-grey">
+                          <div class="w3-yellow" style="height:10px;width:75%"></div>
+                        </div>
+                    </div>
+
+                </div>
+    
+                <div class=" space41">
+
+                    <div class="write42">
+                        <span style="font-size: 24px;"> Our Organization</span>
+                        <br>
+                        <br>
+                        <span style="font-size: 14px;">Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</span>
+                        <br>
+                        <br>
+                        <div class="lis41">
+                            <ul class="line" style="font-size: 14px; font-weight: normal;" >
+                               <li><i class="fa fa-chevron-circle-right" style="font-size:13px;color: #46BD55;"></i> Lorem ipsum dolor sit amet</li>
+                               <li><i class="fa fa-chevron-circle-right" style="font-size:13px;color: #46BD55;"></i>Lorem ipsum dolor sit amet</li>
+                               <li><i class="fa fa-chevron-circle-right" style="font-size:13px;color: #46BD55;"></i>Lorem ipsum dolor sit amet</li>
+                               <li><i class="fa fa-chevron-circle-right" style="font-size:13px;color: #46BD55;"></i>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="ima42"><img src="../img/complex.jpeg" height="100%" width="100%" style="border: 3px solid rgb(214, 224, 226);"></div>
+
+                </div>
+                <div class="spacex41">
+                    <div class="gal41">
+                        <div class="im11"><img src="../img/john.jpg" height="260px" width="300px"> </div>
+                        <div class="write11"> 
+                            <div class="writeA" style=" height: 30px;"><h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif;  line-height: 3; "> John Doe</h4></div> 
+                             <div class="writeB" style="height: 30px; margin-top: -20px;"><p style="text-align: center; font-weight: normal; font-size: 13px; line-height: 4;"> Creative </p></div>
+                        </div>
+                    </div>  
+    
+                    <div class="gal41" style="margin-left: 300px;">
+                        <div class="im11"><img src="../img/jeniffer.jpg" height="260px" width="300px"> </div>
+                        <div class="write11"> 
+                            <div class="writeA" style=" height: 30px;"><h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif;  line-height: 3; "> Jeniffer</h4></div> 
+                             <div class="writeB" style="height: 30px; margin-top: -20px;"><p style="text-align: center; font-weight: normal; font-size: 13px; line-height: 4;"> Manager </p></div>
+                        </div>
+                    </div> 
+    
+                    <div class="gal41"  style="margin-left: 600px;">
+                        <div class="im11"><img src="../img/chris.jpg" height="260px" width="300px"> </div>
+                        <div class="write11"> 
+                            <div class="writeA" style=" height: 30px;"><h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif;  line-height: 3; "> Kale Daniel</h4></div> 
+                             <div class="writeB" style="height: 30px; margin-top: -20px;"><p style="text-align: center; font-weight: normal; font-size: 13px; line-height: 4;"> CEO </p></div>
+                        </div>
+                    </div> 
+    
+                    <div class="gal41"  style="margin-left: 900px;">
+                        <div class="im11"><img src="../img/kale.jpg" height="260px" width="300px"> </div>
+                        <div class="write11"> 
+                            <div class="writeA" style=" height: 30px;"><h4 style="text-align: center; font-family: Arial, Helvetica, sans-serif;  line-height: 3; "> John Doe</h4></div> 
+                             <div class="writeB" style="height: 30px; margin-top: -20px;"><p style="text-align: center; font-weight: normal; font-size: 13px; line-height: 4;"> Creative </p></div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+                
+        </div>
+        <div class="container5">
+            <div class="rect">
+                <div class="rect1">
+                    <div class="hd1"> <p style="font-family: Arial, Helvetica, sans-serif; color: #46BD55; font-size: 14px; font-weight: bolder; ">Our Contact </p></div>
+                    <div class="bd1">
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; font-weight: bolder;"> MyHome Inc</p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; ">JC Main Road, Near Silnile tower</p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; ">Pin-21542 NewYork US</p>
+                    </div>
+                    <div class="tl1">
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; ">(123) 456-789 - 1255-12584</p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "> email@domainname.com</p>
+                    </div>
+                </div>
+
+                <div class="rect1">
+                    <div class="hd1"> <p style="font-family: Arial, Helvetica, sans-serif; color: #46BD55; font-size: 14px; font-weight: bolder; ">Quick Links </p></div>
+                    <div class="bd1">
+                        
+                        <p class="ra1" style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page"> Latest Events</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Terms and Conditions</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Privacy Policy</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Career</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Contact Us</a></p>
+                    </div>
+                    
+                </div>
+
+                <div class="rect1">
+                    <div class="hd1"> <p style="font-family: Arial, Helvetica, sans-serif; color: #46BD55; font-size: 14px; font-weight: bolder; ">Latest Posts </p></div>
+                    <div class="bd1">
+                        
+                        <p class="ra1" style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page"> Latest Events</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Terms and Conditions</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Privacy Policy</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Career</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Contact Us</a></p>
+                    </div>
+                 
+                </div>
+
+                <div class="rect1">
+                    <div class="hd1"> <p style="font-family: Arial, Helvetica, sans-serif; color: #46BD55; font-size: 14px; font-weight: bolder; ">Recent News </p></div>
+                    <div class="bd1">
+                        
+                        <p class="ra1" style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page"> Latest Events</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Terms and Conditions</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Privacy Policy</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Career</a></p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "><a href="https://en.wikipedia.org/wiki/Main_Page">Contact Us</a></p>
+                    </div>
+                    <div class="tl1">
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; ">(123) 456-789 - 1255-12584</p>
+                        <p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; "> email@domainname.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copy"><p style=" font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #797979; margin-left: 135px;"> © Bootstrap Template 2018 All right reserved. Template By <a href="https://webthemez.com/" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #797979;">WebThemez</a></p></div>\
+            <div class="log">
+                <ul class="logos">
+                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-f" style="height: 30px; width: 30px; font-size:30px ;color:#797979; border:1px solid #797979; text-align: center;"></a></i></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" style="height: 30px; width: 30px; font-size:25px;color:#797979; border:1px solid #797979; text-align: center;"></a></i></li>
+                    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter" style="height: 30px; width: 30px; font-size:25px;color:#797979; border:1px solid #797979; text-align: center;"></a></i></li>
+                    <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest" style="height: 30px; width: 30px; font-size:25px;color:#797979; border:1px solid #797979; text-align: center;"></a></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    
+
